@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal{
+    background-color: white;
+    max-width: 500px;
+    border-radius: 8px;
+
+}
+
+header{
+   text-align: center;
+    color: black;
+}
+
+.topo p{
+    font-size: 20px;
+    color: rgb(26, 37, 37);
+    padding: 20px;
+}
+
+nav{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(199, 228, 228);
+}
+
+nav a{
+    padding: 10px;
+    align-items:flex-end;  
+}
+
+.botão{
+        text-align: center;
+}
+
+.botão1 {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
